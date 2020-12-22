@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vratika.e_library.HomeActivity">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.636"
+        android:background="@drawable/pic4">
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="74dp"
+            android:background="@android:color/holo_orange_light"
+            android:textSize="16sp"
+            android:text="LOGIN" />
+
+        <TextView
+            android:id="@+id/id1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:background="?attr/colorButtonNormal"
+            android:text="WELCOME TO E-LIB"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/usernameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="325dp"
+            android:background="@color/colorPrimary"
+            android:ems="15"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/passEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="365dp"
+            android:background="@color/colorPrimary"
+            android:ems="15"
+            android:hint="Password"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25sp"
+            android:inputType="textPassword" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="185dp"
+            android:layout_height="200dp"
+            android:layout_alignBottom="@+id/usernameEditText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="42dp"
+            app:srcCompat="@drawable/pic6" />
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
